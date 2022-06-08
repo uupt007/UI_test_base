@@ -1,0 +1,3 @@
+platform: Android
+plaatformVersion:7.1.1
+app: /home/appium/apps/kaoyan3.1.0.apk
