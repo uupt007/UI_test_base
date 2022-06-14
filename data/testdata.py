@@ -11,6 +11,6 @@ def get_csv_data(csv_file,line):
             print(row)
             return row
 if __name__ == '__main__':
-    get_csv_data("./xuanke.csv",1)
-    get_csv_data("./xuanke.csv",2)
-    get_csv_data("./xuanke.csv",3)
+    get_csv_data("login_data.csv", 1)
+    get_csv_data("login_data.csv", 2)
+    get_csv_data("login_data.csv", 3)

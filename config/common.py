@@ -21,3 +21,7 @@ def appium_desired():
     driver.implicitly_wait(10)
     return driver
 
+
+# common.py 是appium的一些初始化信息
+
+

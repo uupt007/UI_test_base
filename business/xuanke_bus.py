@@ -12,7 +12,7 @@ def jk_xuanke(username, password,kechenghao):
     jk2 = FindElement(driver)
     try:
     #     登录
-        jk2.get_element(node="login",key="user_login").click()
+    #     jk2.get_element(node="login",key="user_login").click()
         jk2.get_element(node="login",key="user_name").send_keys(username)
         jk2.get_element(node="login",key="user_password").send_keys(password)
         jk2.get_element(node="login",key="login_button").click()

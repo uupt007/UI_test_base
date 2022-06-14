@@ -19,5 +19,5 @@ testcase = unittest.defaultTestLoader.discover(test_dir, pattern='test_*.py')
 
 #运行用例并生成测试报告
 with open(report_name, 'wb') as f:
-    runner = BSTestRunner(stream=f, title="我的选课功能测试报告", description="我的选课功能测试报告")
+    runner = BSTestRunner(stream=f, title="我的XX功能测试报告", description="我的XX功能测试报告")
     runner.run(testcase)

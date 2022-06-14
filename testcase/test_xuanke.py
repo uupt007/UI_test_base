@@ -8,7 +8,7 @@ from data.testdata import get_csv_data
 sys.path.append('..')
 
 class TestXUANKE(unittest.TestCase):
-    csv_file = os.path.abspath(os.path.dirname(os.getcwd())) +"/data/xuanke.csv"
+    csv_file = os.path.abspath(os.path.dirname(os.getcwd())) +"/data/login_data.csv"
     def setUp(self):
         print("开始测试~")
         # 这句话的作用是用来忽略 ResourceWaring 异常警告的

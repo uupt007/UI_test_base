@@ -23,5 +23,5 @@ class ReadIni():
             return self.cf.get(self.node,key)
 if __name__ == '__main__':
     aa = ReadIni()
-    print(aa.get_value("borwser"))    # 读取config.ini 的 browser 结点的值
+    print(aa.get_value("borwser"))    # 读取config.ini 的 browser 节点的值
     print(os.path.dirname(os.path.dirname(__file__)))
